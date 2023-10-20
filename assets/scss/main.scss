@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Alata&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Alata, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: #191A19;
+    color: #D8E9A8;
+}
+
+.btn {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0 10px 10px 0;
+    outline: none;
+    border: none;
+    background-color: #4E9F3D;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button {
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: #4e9f3d;
+    padding: 0.8rem;
+    border-radius: 6px;
+    transition: all 0.5s;
+
+    &:hover {
+      background-color: #285120;
+    }
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
